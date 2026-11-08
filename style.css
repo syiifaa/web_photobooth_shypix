@@ -1,0 +1,21 @@
+/* Custom App Background Styling */
+.bg-app {
+  background-color: var(--app-bg, #fff5f7);
+}
+
+/* Flash animation class */
+.flash-active {
+  opacity: 1 !important;
+}
+
+/* Compact preview auto scale */
+.compact-preview-wrapper {
+  max-height: 380px;
+}
+
+/* Responsive fixes */
+@media (max-height: 700px) {
+  .compact-preview-wrapper {
+    max-height: 280px;
+  }
+}
