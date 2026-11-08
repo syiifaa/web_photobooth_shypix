@@ -1,0 +1,1 @@
+# web_photobooth_shypix
